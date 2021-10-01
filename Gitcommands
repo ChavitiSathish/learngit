@@ -17,7 +17,11 @@ To Know Content differences   : git diff
 To add file to staging area   : git add <FileName>
 To commit file to Local Git   : git commit -m "Commit Message"
 Add Commit Full Information   : git commit -v
-TO push file to Remote GitHub : git push <server> <branch>
+To push file to Remote GitHub : git push <server> <branch>
+To see is history of Commits  : git log
+To see commit differences     : git log -p
+To see only last 2 commits    : git log -2
+To see commits in single line : git log --pretty=oneline
 Create new file               : touch <filename>
 Open file in vi editor        : vi <filename>
 
