@@ -1,0 +1,40 @@
+WorkFlow
+--------------------------------------------------
+Commit
+Clone
+Tracking/Untracking : Tracking done by .git folder to track git files.
+
+Commands
+--------------------------------------------------
+Clone repository(Existing)    : git clone <Repo url>
+Clone repository(New)         : git clone <Repo url> <Name>
+Make Directory                : mkdir <Name>
+Change Directory              : cd <Name>
+List files                    : ls
+List Hidden Files             : ls -al
+To know Git Status            : git status
+To Know Content differences   : git diff
+To add file to staging area   : git add <FileName>
+To commit file to Local Git   : git commit -m "Commit Message"
+Add Commit Full Information   : git commit -v
+TO push file to Remote GitHub : git push <server> <branch>
+Create new file               : touch <filename>
+Open file in vi editor        : vi <filename>
+
+
+How to Push Local Directory to GitHub
+------------------------------------------------
+Initialize Git                : git init
+Git Status                    : git status
+Add file                      : git add <filename1> <filename2>
+Add all files                 : git add .
+Commit all files              : git commit -m "Commit Message"
+Add remote server             : git remote add <server> <repourl>
+Push files to Github          : git push -u <server> <branch> Ex: git push -u origin main
+
+How to Create Git Ignore file
+------------------------------------------------------
+Create GIT IGNORE File        : vi .gitignore
+
+
+
