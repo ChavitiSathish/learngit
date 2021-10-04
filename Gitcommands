@@ -22,8 +22,11 @@ To see is history of Commits  : git log
 To see commit differences     : git log -p
 To see only last 2 commits    : git log -2
 To see commits in single line : git log --pretty=oneline
+Every commits in single line  : git log --oneline
 Create new file               : touch <filename>
 Open file in vi editor        : vi <filename>
+Check content of File         : cat <filename>
+Check Remote REPO Server      : git remote
 
 
 How to Push Local Directory to GitHub
@@ -40,5 +43,30 @@ How to Create Git Ignore file
 ------------------------------------------------------
 Create GIT IGNORE File        : vi .gitignore
 
+How to Create Branch Name
+-------------------------------------------------
+Create Branch Name            : git branch <branch-name>
+Move to Branch Name           : git checkout <branch-name>
+All Branches commits          : git log --oneline --all
+Create Branch and Switch      : git checkout -b <branch-name>
+Merge Branch                  : git merge <branch-name>
+Delete Branch                 : git branch -d <branch-name>
+Know Merged Branches          : git branch --merge
+Know not Merged Branches      : git branch --no-merge
+
+How to Pull and Fetch Repository
+Fetch Repo Server             : git fetch <server-name>
+Pull All changes from git     : git pull <server-name>
+
+How to create Git Tag
+Create Git tag               : git tag <tag>
+List git tag                 : git tag
+Compare Tag                  : git diff <tag1> <tag2>
+Delete Tag                   : git tag -d <tag>
+Give Tag to Commit           : git tag -a <version> <commitnumber>
+Update Tag to Commit         : git tag -a <version> -f <commitnumber>
+Push Tags                    : git push <server> <tagname>
+Push All Tags                : git push <server> --tags
+List Specific Tags           : git tag -list "v1.*"
 
 
